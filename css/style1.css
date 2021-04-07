@@ -1,48 +1,79 @@
 header {
-    background-color: #DDDDDD;
+    background-color:darkgreen;
     display: flex;
     align-items: center;
   }
   
-  header img {
-    height: 6em;
+  main img {
+    width: 12em;
+    height: 12em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    padding-right: 1em;
   }
   
-  header h1 {
+h1 {
     font-family:'Abril Fatface', cursive;
-    font-family:'Oswald', sans-serif;
+    color:ghostwhite;
+    text-align: center;
+    width: 100%;
   }
   
-  nav {
-    background-color: #DDDDDD;
-  }
-  
-  nav a {
+   a{
     font-family:'Open Sans', sans-serif;
     text-decoration: none;
     color: black;
-    background-color: white;
-    display: block;
-    margin-bottom: 0.25em;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+   }
+    nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
   }
   
   nav a:hover {
+    background-color: rgb(236, 255, 168);
+  }
+  
+  main h2 {
+    font-family:'Oswald', sans-serif;
+    color:darkblue
+  }
+
+  main h3{
+    font-family:'Oswald', sans-serif;
     text-decoration: underline;
+    color: darkblue;
   }
   
-  main {
-    font-family:'Open Sans', sans-serif;
+  main h4 {
+    font-family:'Oswald', sans-serif;
+    color: darkblue;
   }
-  
-  main em {
-    font-weight: bold;
+
+  main p {
+    font-family: 'Open Sans', sans-serif;
   }
-  
+
+  main ul {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+  }
+
+  #list {
+    background-color:rgb(236, 255, 168);
+    padding-left: 1em;
+    color: black;
+  }
+
   footer {
+    color: ghostwhite;
     height: 5em;
-    background-color: #DDDDDD;
+    background-color:darkgreen;
   }
   
   footer p {
