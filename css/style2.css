@@ -58,6 +58,7 @@ main h3 {
   color: rgb(255, 191, 107);
   font-size:1.3em;
   margin-left: 15.5em;
+  text-shadow: 2px 2px rgb(161, 93, 3);
 }
 
 main h4 {
