@@ -15,12 +15,28 @@ margin-right: auto;
 margin-left: auto;
 }
 
+#sports {
+  width: 30em;
+}
+
+#History {
+  width: 20em;
+}
+
+#Geo {
+  width: 20em;
+}
+
+#History2 {
+  width: 12em;
+}
+
 h1 {
   font-family: 'Courgette', cursive;
   color:black;
   text-align: center;
   width: 43em;
-  font-size: 2em;
+  font-size: 2.1em;
 }
 
 a {
@@ -49,16 +65,16 @@ ul {
 main h2 {
   font-family: 'Lobster Two', cursive;
   color: rgb(255, 191, 107);
-  font-size: 2em;
+  font-size: 2.5em;
+  margin-left: 8.5em;
 }
 
 main h3 {
   font-family: 'Lobster Two', cursive;
   text-decoration: underline;
   color: rgb(255, 191, 107);
-  font-size:1.3em;
-  margin-left: 15.5em;
-  text-shadow: 2px 2px rgb(161, 93, 3);
+  font-size:1.5em;
+  margin-left: 14em;
 }
 
 main h4 {
